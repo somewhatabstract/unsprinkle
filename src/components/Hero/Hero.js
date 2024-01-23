@@ -1,10 +1,11 @@
 import React from 'react';
 import styled from 'styled-components/macro';
+import HeroImage from './HeroImage';
 
 const Hero = () => {
   return (
     <Wrapper>
-      <HeroImage src="/images/hero-img.jpg" />
+      <HeroImage />
       <Swoop src="/swoop.svg" />
     </Wrapper>
   );
@@ -18,13 +19,6 @@ const Wrapper = styled.section`
   justify-content: center;
   align-items: flex-end;
   background: hsl(0deg 0% 1%);
-`;
-
-const HeroImage = styled.img`
-  display: block;
-  width: 500px;
-  height: 500px;
-  max-height: 100%;
 `;
 
 const Swoop = styled.img`
