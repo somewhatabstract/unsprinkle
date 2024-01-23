@@ -14,7 +14,7 @@ const HeroImage = () => {
         /images/hero-img@2x.jpg 2x,
         /images/hero-img@3x.jpg 3x
       "/>
-      <Image src="/images/hero-img.jpg" />
+      <Image src="/images/hero-img.jpg" alt="" />
     </picture>
   );
 };
